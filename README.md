@@ -10,7 +10,7 @@ Install node_modules
 
 ## Screenshots
 
-![LoginPage](loginclean.png)
-![RegisterPage](register.png)
-![AddToDo](addtodo.png)
-![MyToDo](mytodo)
+![LoginPage](loginclean.png){:height="50%" width="50%"}
+![RegisterPage](register.png){:height="50%" width="50%"}
+![AddToDo](addtodo.png){:height="50%" width="50%"}
+![MyToDo](mytodo){:height="50%" width="50%"}
