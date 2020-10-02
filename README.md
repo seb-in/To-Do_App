@@ -13,4 +13,4 @@ Install node_modules
 ![LoginPage](loginclean.png)
 ![RegisterPage](register.png)
 ![AddToDo](addtodo.png)
-![MyToDo](mytodo)
+![MyToDo](mytodo.png)
