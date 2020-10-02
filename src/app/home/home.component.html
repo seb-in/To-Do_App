@@ -1,0 +1,25 @@
+<h3>My Todos</h3>
+<button (click)="AddTodo()" class="btn btn-success">Add Todo</button>
+<table class="table">
+    <thead>
+        <td>Id</td>
+        <td>Description</td>
+        <td>Start Date</td>
+        <td>End Date</td>
+        <td>Actions</td>
+    </thead>
+    <tbody>
+        <tr *ngFor="let toDo of myTodos">
+            <td>{{toDo.id}}</td>
+            <td>{{toDo.description}}</td>
+            <td>{{toDo.startDate  | date: 'dd/MM/yyyy'}}</td>
+            <td>{{toDo.endDate | date: 'dd/MM/yyyy'}}</td>
+            <td>
+                <button (click) = "EditTodo(toDo)" class="btn btn-warning">Edit</button>
+            </td>
+            <td>
+                <button (click) = "DeleteTodo(toDo)" class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

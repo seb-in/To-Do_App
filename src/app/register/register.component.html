@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <h1>Register</h1>
+      <form #userForm="ngForm">
+        <hr />
+        <div class="form-group">
+          <label>User Name</label>
+          <input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched"
+            class="form-control" name="user name" [(ngModel)]="username">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" required #pwd="ngModel" [class.is-invalid]="pwd.invalid && pwd.touched"
+            class="form-control" name="password" [(ngModel)]="password">
+          <label>Confirm Password</label>
+          <input type="password" required #confirmpwd="ngModel"
+            [class.is-invalid]="confirmpwd.invalid && confirmpwd.touched" class="form-control" name="confirmpassword"
+            [(ngModel)]="confirmpassword">
+          <div>
+            <small class="text-danger">{{errorMessage}}</small>
+          </div>
+        </div>
+        <div> <button class="btn btn-dark" (click)="Register()">Register</button></div>
+      </form>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>
