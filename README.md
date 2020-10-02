@@ -8,9 +8,9 @@ Install node_modules
 
 ```npm install``
 
-##Screenshots
+## Screenshots
 
-![LoginPage](loginclean.png| width=100)
-![RegisterPage](register.png| width=100)
-![AddToDo](addtodo.png| width=100)
-![MyToDo](mytodo| width=100)
+![LoginPage](loginclean.png)
+![RegisterPage](register.png)
+![AddToDo](addtodo.png)
+![MyToDo](mytodo)
